@@ -1,4 +1,4 @@
-package org.mayank.messenger;
+package org.mayank.messenger.messages;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
