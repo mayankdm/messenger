@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.mayank</groupId>
+    <groupId>com.mayank.jersy</groupId>
     <artifactId>messenger</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
@@ -44,12 +44,10 @@
             <!-- use the following artifactId if you don't need servlet 2.x compatibility -->
             <!-- artifactId>jersey-container-servlet</artifactId -->
         </dependency>
-        <!-- uncomment this to get JSON support
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-moxy</artifactId>
         </dependency>
-        -->
     </dependencies>
     <properties>
         <jersey.version>2.17</jersey.version>
